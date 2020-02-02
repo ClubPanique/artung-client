@@ -52,6 +52,7 @@ export default {
       picture: "",
       FB: undefined,
       loginOptions: {
+        // Ici on précise les autorisations qu'on veut demander à l'utilisateur
         scope: "public_profile, email, manage_pages"
       },
       loginLabel: "Lier la page Facebook",
