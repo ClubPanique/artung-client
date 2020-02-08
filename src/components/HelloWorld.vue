@@ -1,9 +1,14 @@
 <template>
   <div class="hello">
-    <p>Exemple d'utilisation des icones fontawesome :</p>
+    <h2>Exemple d'utilisation des icones fontawesome :</h2>
     <p><font-awesome-icon icon="home" /></p>
     <p><font-awesome-icon icon="heart" /></p>
-    <p>Pour une icône regular : <font-awesome-icon :icon="['far', 'heart']" /></p>
+    <p>
+      Pour une icône regular : <font-awesome-icon :icon="['far', 'heart']" />
+    </p>
+    <h2>Exemple couleurs Bootstrap personnalisées</h2>
+    <p class="text-primary">Police couleur primary</p>
+    <p class="text-black">Police couleur black personnalisée</p>
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
