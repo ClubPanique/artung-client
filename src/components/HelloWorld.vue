@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="container text-center">
     <h2>Exemple d'utilisation des icones fontawesome :</h2>
     <p><font-awesome-icon icon="home" /></p>
     <p><font-awesome-icon icon="heart" /></p>
