@@ -27,7 +27,7 @@ export default {
     addSecondaryClass: function() {
       if (this.secondary) {
         this.$el.querySelector("button").classList.add("secondary");
-        this.$el.querySelector("button").style.color = "#000000"
+        this.$el.querySelector("button").style.color = "#131b23"
         this.$el.querySelector("button").style.background = "#db5c3d"
         this.$el.querySelector("button").style.bordercolor = "#db5c3d"
       } else {
@@ -72,8 +72,8 @@ export default {
 .btn-outline-primary:visited,
 .btn-outline-primary:focus {
   border-color: #db5c3d;
-  background: #000000;
-  color: rgb(219, 92, 61);
+  background: #131b23;
+  color: #db5c3d;
 }
 
 // .secondary {
