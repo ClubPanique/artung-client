@@ -1,12 +1,17 @@
 <template>
   <div>
-
+    <TextButton text="Go !" form secondary></TextButton>
   </div>
 </template>
 
 <script>
+import TextButton from '../../components/buttons/TextButton'
+
 export default {
   name: 'Steve',
+  components: {
+    TextButton
+  }
 };
 </script>
 
