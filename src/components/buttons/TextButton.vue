@@ -2,7 +2,11 @@ impo
 
 <template>
   <div>
-    <button variant="outline-primary" class="btn btn-outline-primary">{{text}}</button>
+    <button
+      variant="outline-primary"
+      class="btn btn-outline-primary"
+      :class="{ secondary: secondary }"
+    >{{text}}</button>
   </div>
 </template>
 
@@ -16,23 +20,28 @@ export default {
   },
   data() {
     return {
-      testVariable: "test"
+      testVariable: "test",
+      styleObject: {
+        color: "#131b23",
+        background: "#db5c3d",
+        borderColor: "#db5c3d"
+      }
     };
   },
   mounted() {
-    this.addSecondaryClass();
+    this.isSecondary();
     this.checkForm();
   },
   methods: {
-    addSecondaryClass: function() {
+    isSecondary: function() {
       if (this.secondary) {
-        this.$el.querySelector("button").classList.add("secondary");
-        this.$el.querySelector("button").style.color = "#131b23"
-        this.$el.querySelector("button").style.background = "#db5c3d"
-        this.$el.querySelector("button").style.bordercolor = "#db5c3d"
+        this.$el.querySelector("button").style.color = "#131b23";
+        this.$el.querySelector("button").style.background = "#db5c3d";
+        this.$el.querySelector("button").style.bordercolor = "#db5c3d";
       } else {
-        this.$el.querySelector("button").classList.remove("secondary");
-        // alert("removed !")
+        this.$el.querySelector("button").style.color = "#db5c3d";
+        this.$el.querySelector("button").style.background = "#131b23";
+        this.$el.querySelector("button").style.bordercolor = "#db5c3d";
       }
     },
     checkForm: function() {
@@ -44,40 +53,16 @@ export default {
     }
   },
 
-  // watch: {
-  //   addSecondaryClass: function() {
-  //     if (this.secondary) {
-  //       this.$el.querySelector("button").classList.add("secondary")
-  //     }
-  //   }
-  // },
+  watch: {},
   computed: {
-    elbairavTset: function() {
-      return this.testVariable + "test";
-    }
+    // elbairavTset: function() {
+    //   return this.testVariable + "test";
+    // },
   }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
-// .primary {
-//   color: red;  
-// }
-
-.btn-outline-primary,
-.btn-outline-primary:hover,
-.btn-outline-primary:active,
-.btn-outline-primary:visited,
-.btn-outline-primary:focus {
-  border-color: #db5c3d;
-  background: #131b23;
-  color: #db5c3d;
-}
-
-// .secondary {
-//   color: black;
-// }
 
 </style>
