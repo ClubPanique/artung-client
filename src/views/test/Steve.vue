@@ -1,16 +1,17 @@
 <template>
-  <div>
-    <TextButton text="Go !" secondary ></TextButton>
+  <div>    
+    <Checkbox></Checkbox>
   </div>
 </template>
 
 <script>
-import TextButton from '../../components/buttons/TextButton'
+// import TextButton from '../../components/buttons/TextButton'
+import Checkbox from '../../components/forms/Checkbox'
 
 export default {
   name: 'Steve',
   components: {
-    TextButton
+    Checkbox
   }
 };
 </script>
