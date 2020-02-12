@@ -20,12 +20,7 @@ export default {
   },
   data() {
     return {
-      testVariable: "test",
-      styleObject: {
-        color: "#131b23",
-        background: "#db5c3d",
-        borderColor: "#db5c3d"
-      }
+      testVariable: "test"
     };
   },
   mounted() {
@@ -64,5 +59,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
 </style>
