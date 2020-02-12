@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TextButton text="Go !"  secondary></TextButton>
+    <TextButton text="Go !" secondary ></TextButton>
   </div>
 </template>
 
