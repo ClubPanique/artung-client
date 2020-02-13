@@ -63,7 +63,7 @@ input {
     left: 1px;
     width: 14px;
     height: 14px;
-    background-color: #db5c3d;
+    background-color: rgb(219, 92, 61);
 }
 
 .checkbox-button__input:checked+.checkbox-button__control {
