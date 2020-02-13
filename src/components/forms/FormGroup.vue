@@ -3,7 +3,7 @@
     <div>
       <label for="contenu">{{text}}</label>
     </div>
-    <input id="contenu" type="text" placeholder="Ecrivez ici" />
+    <input id="contenu" placeholder="Champ requis" />
   </div>
 </template>
   <!-- Types : text, password, email -->
@@ -21,11 +21,11 @@ export default {
   methods: {
     typeChange: function() {
       if (this.typeStatus == "email") {
-        this.$el.querySelector("button").setAttribute("type", "email");
+        this.$el.querySelector("input").setAttribute("type", "email");
       } else if (this.typeStatus == "password") {
-        this.$el.querySelector("button").setAttribute("type", "password");
+        this.$el.querySelector("input").setAttribute("type", "password");
       } else {
-        this.$el.querySelector("button").setAttribute("type", "text");
+        this.$el.querySelector("input").setAttribute("type", "text");
       }
     }
   }
