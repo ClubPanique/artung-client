@@ -30,11 +30,11 @@ export default {
     //   if (this.secondary) {
     //     this.$el.querySelector("button").style.color = "#131b23";
     //     this.$el.querySelector("button").style.background = "#db5c3d";
-    //     this.$el.querySelector("button").style.bordercolor = "#db5c3d";
+    //     this.$el.querySelector("button").style.borderColor = "#db5c3d";
     //   } else {
     //     this.$el.querySelector("button").style.color = "#db5c3d";
     //     this.$el.querySelector("button").style.background = "#131b23";
-    //     this.$el.querySelector("button").style.bordercolor = "#db5c3d";
+    //     this.$el.querySelector("button").style.borderColor = "#db5c3d";
     //   }
     // },
     checkForm: function() {
