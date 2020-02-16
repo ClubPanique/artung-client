@@ -1,6 +1,6 @@
 <template>
   <div>
-    <FormGroupInline></FormGroupInline>
+    <FormGroupInline iconStatus="wordpress"></FormGroupInline>
     <FormGroup typeStatus="password"></FormGroup>
     <Checkbox></Checkbox>
     <TextButton secondary form></TextButton>
