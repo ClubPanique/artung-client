@@ -52,7 +52,7 @@ input {
     vertical-align: middle;
     background-color: inherit;
     color: #131b23;
-    border: 2px solid #131b23;
+    border: 2px solid #f3eff5;
 }
 
 .checkbox-button__input:checked+.checkbox-button__control:after {
@@ -67,7 +67,7 @@ input {
 }
 
 .checkbox-button__input:checked+.checkbox-button__control {
-    border-color: #131b23;
+    border-color: #f3eff5;
 }
 
 .checkbox-button__control {
