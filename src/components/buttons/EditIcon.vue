@@ -26,20 +26,6 @@ export default {
   border: 2px solid #f3eff5;
 }
 
-/* .btn-circle.btn-lg:checked {
-  width: 50px;
-  height: 50px;
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33;
-  border-radius: 25px;
-  border: 2px solid #f3eff5;
-} */
-
-.glyphicon-ok {
-  color: #f3eff5;
-}
-
 .checked {
   opacity: 0;
 }
