@@ -1,5 +1,7 @@
 <template>
+
   <div class="fond">
+
     <FormGroupInline iconStatus="wordpress"></FormGroupInline>
     <FormGroup typeStatus="password"></FormGroup>
     <Checkbox></Checkbox>
@@ -30,6 +32,7 @@ data() {
     };
   }
 };
+
 </script>
 
 <style scoped lang="scss">
@@ -37,4 +40,7 @@ data() {
     background: #131b23;
     background: #444444;
   }
+
+
+
 </style>
